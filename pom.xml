@@ -41,7 +41,7 @@
 <distributionManagement>
     <repository>
         <id>sym</id>
-        <name>release softx</name>
+        <name>snapshot softx</name>
         <url>http://52.66.212.86:8081/repository/Kaushik1/snapshot/</url>
     </repository>
 	<repository>
