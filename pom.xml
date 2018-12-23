@@ -4,7 +4,7 @@
   <groupId>com.scmgalaxy.mavensample</groupId>
   <artifactId>yoodle</artifactId>
   <packaging>jar</packaging>
-  <version>5.0.0-SNAPSHOT</version>
+  <version>5.0.0-${BUILD_NUMBER}</version>
   <name>my-maven</name>
   <url>http://maven.apache.org</url>
 	
@@ -42,12 +42,12 @@
     <snapshotRepository>
         <id>sym</id>
         <name>snapshot softx</name>
-        <url>http://52.66.212.86:8081/repository/Kaushik2/snapshot/</url>
+        <url>http://52.66.212.86:8081/repository/Kaushik/</url>
     </snapshotRepository>
    <repository>
         <id>sym</id>
         <name>release softx</name>
-        <url>http://52.66.212.86:8081/repository/Kaushik2/release/</url>
+        <url>http://52.66.212.86:8081/repository/Kaushik/</url>
     </repository>
 </distributionManagement>
 
